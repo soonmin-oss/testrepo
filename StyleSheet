@@ -1,0 +1,35 @@
+.certification-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.certification-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field input {
+  padding: 0.5rem;
+}
+
+.cert-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cert-card button {
+  margin-top: 0.75rem;
+}
+
+.saved-certifications ul {
+  padding-left: 1.5rem;
+}
